@@ -1,0 +1,199 @@
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  section#top {
+    padding: 8.53% 4.69% 7.67%;
+    .container {
+      p.intro-text {
+        font-size: 5vw;
+        margin-bottom: 8.53%;
+        span.sub {
+          padding-top: 3.41%;
+        }
+      }
+      hr {
+        width: 74.17%;
+        border: 2.5px solid $mediumBlue;
+      }
+      p.top-quote,
+      p.bottom-quote {
+        font-size: 5.9vw;
+      }
+      p.top-quote {
+        margin-top: 7.25%;
+      }
+      p.bottom-quote {
+        margin: 6.39% auto;
+      }
+      .newsletter-row {
+        margin-bottom: 9.38%;
+        input {
+          margin-right: 11.94%;
+        }
+        p.checkbox-txt {
+          font-size: 4.5vw;
+          text-align: center;
+        }
+      }
+      .btn.top {
+        width: 92.41%;
+        padding: 5.97% 0;
+        p.btn-txt {
+          font-size: 4vw;
+        }
+      }
+      span.response {
+        padding-top: 2%;
+        font-size: 3.5vw;
+      }
+    }
+  }
+  section#middle {
+    padding-bottom: 0;
+    .container {
+      .event-details-row {
+        flex-direction: column;
+        padding-bottom: 0;
+        background: $lightBlue;
+        .calendar-container {
+          width: 100% !important;
+          overflow: visible;
+          margin-right: 0;
+          padding: 5.29% 12.45% 14.49%;
+          margin: 0 auto;
+          img {
+            width: 49.45%;
+            padding: 0;
+            margin-bottom: 19.61%;
+          }
+          p.date-time {
+            font-size: 6.5vw;
+            font-weight: bold;
+            padding-bottom: 0;
+            span {
+              font-size: 4vw;
+              padding-top: 8.53%;
+              font-weight: normal;
+            }
+          }
+        }
+        .time-left-container {
+          width: 100%;
+          padding: 0 12.45% 15.77%;
+          p.time-left-txt {
+            font-size: 6vw;
+            margin: 0 auto;
+            padding-bottom: 0;
+            margin-bottom: 5.12%;
+            text-align: center;
+          }
+          .time-left {
+            width: 100%;
+            #days,
+            #hours,
+            #minutes,
+            #seconds {
+              padding: 1.71%;
+              font-size: 8vw;
+              span {
+                font-size: 3vw;
+              }
+            }
+          }
+        }
+      }
+      .main-container {
+        flex-direction: column;
+        .left-side {
+          width: 100%;
+          padding: 11.94% 8.53%;
+          img {
+            width: 100%;
+            margin-bottom: 5.97%;
+          }
+          p.caption-txt {
+            margin-bottom: 7.67%;
+            font-size: 4.4vw;
+            line-height: 1.5;
+          }
+          h3.caption-header {
+            font-size: 6.5vw;
+          }
+        }
+        .right-side {
+          width: 100%;
+          padding: 11.08% 4.69%;
+          h4.list-title {
+            margin-bottom: 6.39%;
+            font-size: 5vw;
+          }
+          .checkmark-row {
+            align-items: baseline;
+            margin-bottom: 12.35%;
+            &:last-of-type {
+              margin-bottom: 0;
+            }
+            img {
+              width: 18.33%;
+              margin-right: 3.84%;
+            }
+            p.checkmark-txt {
+              font-size: 4.5vw;
+            }
+          }
+        }
+      }
+    }
+  }
+  section#last-chance {
+    .container {
+      .warning {
+        padding: 8.1% 5.97%;
+        .warning-container {
+          width: 100%;
+        }
+        img {
+          display: none;
+        }
+        p.warning-txt {
+          font-size: 4vw !important;
+          line-height: 1.5;
+          text-align: center;
+        }
+      }
+      .claim-spot {
+        padding: 10.66% 7.67%;
+        p.claim-txt {
+          font-size: 4.5vw;
+        }
+      }
+      .arrow-down {
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 25px solid $darkBlue;
+      }
+      .newsletter-row {
+        margin-bottom: 9.38%;
+        input {
+          margin-right: 11.94%;
+        }
+        p.checkbox-txt {
+          font-size: 4.5vw;
+          text-align: center;
+        }
+      }
+      .btn.bottom {
+        width: 92.41%;
+        padding: 5.97% 7.25%;
+        p.btn-txt {
+          font-size: 5vw;
+        }
+      }
+      span.response {
+        font-size: 3.5vw;
+        padding-top: 2%;
+      }
+    }
+  }
+}
