@@ -50,13 +50,12 @@ section#last-chance {
     .newsletter-row {
       display: flex;
       justify-content: center;
-      align-items: flex-end;
       margin-bottom: 70px;
       input {
         height: 20px;
         width: 20px;
+        margin: 0;
         margin-right: 26px;
-        vertical-align: text-bottom;
       }
       p.checkbox-txt {
         font-family: $arial;
@@ -64,7 +63,7 @@ section#last-chance {
         font-size: 1.1vw;
       }
     }
-    .btn-bottom {
+    .btn.bottom {
       width: 52%;
       max-width: 900px;
       padding: 45px 0;
@@ -72,6 +71,9 @@ section#last-chance {
       margin: 0 auto;
       border: 2px solid $black;
       border-radius: 14px;
+      &:hover {
+        cursor: pointer;
+      }
       p.btn-txt {
         word-break: keep-all;
         font-family: $arial;
@@ -82,6 +84,15 @@ section#last-chance {
         margin: 0 auto;
         text-align: center;
       }
+    }
+    span.response {
+      padding-top: 20px;
+      font-size: 1.3vw;
+      display: none;
+      font-family: $arial;
+      color: $black;
+      margin: 0 auto;
+      text-align: center;
     }
   }
 }

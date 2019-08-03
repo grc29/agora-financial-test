@@ -10,12 +10,7 @@
 
     <title>Best-Selling Author and Gold Expert - Jim Rickards</title>
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-      crossorigin="anonymous"
-    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
     <section id="top">
@@ -38,12 +33,18 @@
           <span class="medium-blue">$101,000 in Profit</span>.”
         </p>
         <div class="newsletter-row">
-          <input type="checkbox" name="freenewsletter" value="freenewsletter" />
+          <input
+            id="checkbox1"
+            type="checkbox"
+            name="freenewsletter"
+            value="freenewsletter"
+          />
           <p class="checkbox-txt">I would like to receive a free newsletter</p>
         </div>
-        <div class="btn-top">
+        <div class="btn top">
           <p class="btn-txt">Register for this FREE<br />live Webinar Here!</p>
         </div>
+        <span class="response"></span>
       </div>
     </section>
     <section id="middle">
@@ -55,7 +56,12 @@
           </div>
           <div class="time-left-container">
             <p class="time-left-txt">TIME LEFT UNTIL THE WEBINAR STARTS...</p>
-            <div class="time-left">A</div>
+            <div class="time-left">
+              <div id="days"></div>
+              <div id="hours"></div>
+              <div id="minutes"></div>
+              <div id="seconds"></div>
+            </div>
           </div>
         </div>
         <div class="main-container">
@@ -128,13 +134,20 @@
         </div>
         <div class="arrow-down"></div>
         <div class="newsletter-row">
-          <input type="checkbox" name="freenewsletter" value="freenewsletter" />
-          <p class="checkboxtxt">I would like to receive a free newsletter</p>
+          <input
+            id="checkbox2"
+            type="checkbox"
+            name="freenewsletter"
+            value="freenewsletter"
+          />
+          <p class="checkbox-txt">I would like to receive a free newsletter</p>
         </div>
-        <div class="btn-bottom">
+        <div class="btn bottom">
           <p class="btn-txt">YES! Reserve My Spot Now! >></p>
         </div>
+        <span class="response"></span>
       </div>
     </section>
+    <script src="app.js"></script>
   </body>
 </html>

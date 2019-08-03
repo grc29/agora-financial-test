@@ -53,7 +53,25 @@ section#middle {
           text-align: center;
         }
         .time-left {
-          width: 100%;
+          width: 75%;
+          margin: 0 auto;
+          #days,
+          #hours,
+          #minutes,
+          #seconds {
+            font-family: $lato;
+            display: inline-block;
+            line-height: 1;
+            padding: 20px;
+            font-size: 40px;
+            text-align: center;
+            color: red;
+            span {
+              display: block;
+              font-size: 20px;
+              color: white;
+            }
+          }
         }
       }
     }
