@@ -1,15 +1,21 @@
-body{
-  padding: 50px;
-  background: #f0f0f0;
+$lightBlue: #71a1be;
+$mediumBlue: #005282;
+$darkBlue: #05263a;
+$pink: #f58c99;
+$black: #0a0a0a;
+$arial: Arial, sans-serif;
+$lato: "Lato", sans-serif;
+
+* {
+  box-sizing: border-box;
 }
 
-.wrapper{
+body {
+  width: 100%;
+}
+
+.container {
+  width: 65%;
+  max-width: 1765px;
   margin: 0 auto;
-  .img-wrapper{
-    height: 260px;
-  }
-  .card-text{
-    height: 74px;
-    overflow: hidden;
-  }
 }

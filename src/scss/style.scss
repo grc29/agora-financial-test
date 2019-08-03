@@ -1,2 +1,6 @@
-@import "./vendor/bootstrap.scss";
-@import './app/main.scss';
+@import "./app/reset.scss";
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+@import "./app/main.scss";
+@import "./app/top.scss";
+@import "./app/middle.scss";
+@import "./app/last-chance.scss";
